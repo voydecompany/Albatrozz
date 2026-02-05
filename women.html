@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALBATROZZ | Women's Collection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar"
+        style="position: sticky; top: 0; background: rgba(255,255,255,0.8); backdrop-filter: blur(20px);">
+        <a href="index.html" class="logo" style="text-decoration: none; color: var(--text);">ALBATROZZ</a>
+        <div class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="men.html">MEN</a>
+            <div class="cart-btn" id="cartBtn">
+                CART (<span id="cartCount">0</span>)
+            </div>
+        </div>
+    </nav>
+
+    <section class="products-section" style="padding-top: 2rem;">
+        <h2 class="section-title">WOMEN'S WARDROBE</h2>
+
+        <div class="filter-bar">
+            <button class="filter-btn active" onclick="filterProducts('all')">ALL</button>
+            <button class="filter-btn" onclick="filterProducts('shirts')">SHIRTS</button>
+            <button class="filter-btn" onclick="filterProducts('tees')">TEES</button>
+            <button class="filter-btn" onclick="filterProducts('pants')">PANTS</button>
+            <button class="filter-btn" onclick="filterProducts('inners')">INNERS</button>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+            <!-- Products injected by JS -->
+        </div>
+    </section>
+
+    <!-- Payment Modal -->
+    <div class="modal-overlay" id="paymentModal">
+        <div class="modal glass">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <h3 class="modal-title">SECURE CHECKOUT</h3>
+            <div class="order-summary">
+                <p>Total: <span class="highlight">₹<span id="totalAmount">0</span></span></p>
+            </div>
+
+            <div class="payment-methods">
+                <div class="upi-option selected">
+                    <div class="radio-circle"></div>
+                    <span>UPI Payment</span>
+                </div>
+            </div>
+
+            <div class="upi-details">
+                <p>Scan to Pay</p>
+                <div class="qr-placeholder">
+                    <div class="qr-pattern"></div>
+                </div>
+                <p class="upi-id">albatrozz@upi</p>
+            </div>
+
+            <button class="pay-btn" id="payNowBtn">PAY NOW</button>
+        </div>
+    </div>
+
+    <!-- Success Overlay -->
+    <div class="success-overlay" id="successOverlay">
+        <div class="success-content">
+            <div class="checkmark-circle">
+                <div class="checkmark"></div>
+            </div>
+            <h2>ORDER PLACED!</h2>
+            <p>Your fit is on the way.</p>
+            <button class="cta-btn" id="closeSuccess">KEEP SHOPPING</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Albatrozz Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Inline script to set category context
+        window.currentCategory = 'women';
+    </script>
+</body>
+
+</html>
