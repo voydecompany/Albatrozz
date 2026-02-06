@@ -1,14 +1,14 @@
 const productsDB = {
     men: [
         { id: 101, name: "OS ACID TEE", price: 1499, type: "tees", image: "Acidtee.jpg" },
-        { id: 102, name: "CARGO BLACK", price: 2999, type: "pants", image: "shirt.png" }, /* using shirt as placeholder */
-        { id: 103, name: "FLANNEL SHIRT", price: 2499, type: "shirts", image: "shirt.png" },
-        { id: 104, name: "BASIC VEST", price: 799, type: "inners", image: "shirt.png" },
-        { id: 105, name: "GRAPHIC HOODIE", price: 3499, type: "tees", image: "shirt.png" }
+        { id: 102, name: "CARGO BLACK", price: 2999, type: "pants", image: "Blackcargo.jpg" },
+        { id: 103, name: "FLANNEL SHIRT", price: 2499, type: "shirts", image: "Flannelshirt.jpg" },
+        { id: 104, name: "BASIC VEST", price: 799, type: "inners", image: "Basicvest.jpg" },
+        { id: 105, name: "GRAPHIC HOODIE", price: 3499, type: "tees", image: "Graphichoodie.jpg" }
     ],
     women: [
-        { id: 201, name: "CROP TOP NEON", price: 1299, type: "tees", image: "shirt.png" },
-        { id: 202, name: "BAGGY JEANS", price: 2999, type: "pants", image: "shirt.png" },
+        { id: 201, name: "CROP TOP", price: 1299, type: "tees", image: "Croptop.jpg" },
+        { id: 202, name: "BAGGY JEANS", price: 2999, type: "pants", image: "Baggywoman.jpg" },
         { id: 203, name: "OVERSIZED TEE", price: 1499, type: "tees", image: "shirt.png" },
         { id: 204, name: "MESH TOP", price: 1999, type: "shirts", image: "shirt.png" },
         { id: 205, name: "SPORTS BRA", price: 1499, type: "inners", image: "shirt.png" }
