@@ -1,6 +1,6 @@
 const productsDB = {
     men: [
-        { id: 101, name: "OS ACID TEE", price: 1499, type: "tees", image: "shirt.png" },
+        { id: 101, name: "OS ACID TEE", price: 1499, type: "tees", image: "Acidtee.jpg" },
         { id: 102, name: "CARGO BLACK", price: 2999, type: "pants", image: "shirt.png" }, /* using shirt as placeholder */
         { id: 103, name: "FLANNEL SHIRT", price: 2499, type: "shirts", image: "shirt.png" },
         { id: 104, name: "BASIC VEST", price: 799, type: "inners", image: "shirt.png" },
