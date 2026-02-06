@@ -160,7 +160,7 @@ body:hover .cursor-outline {
     position: relative;
     padding: 0;
     overflow: hidden;
-    background: url('hero.png') no-repeat center center/cover;
+    background: url('Hero.png') no-repeat center center/cover;
 }
 
 /* Gradient Overlay for Text Readability */
