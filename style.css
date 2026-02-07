@@ -27,7 +27,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Custom Cursor */
+/* Custom Cursor 
 .cursor-dot {
     width: 10px;
     height: 10px;
@@ -53,7 +53,7 @@ body {
 
 body:hover .cursor-outline {
     opacity: 1;
-}
+}*/
 
 /* Navbar - Default Clear (Hero State) */
 .navbar {
