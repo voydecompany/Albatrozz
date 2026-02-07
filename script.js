@@ -9,9 +9,9 @@ const productsDB = {
     women: [
         { id: 201, name: "CROP TOP", price: 1299, type: "tees", image: "Croptop.jpg" },
         { id: 202, name: "BAGGY JEANS", price: 2999, type: "pants", image: "Baggywoman.jpg" },
-        { id: 203, name: "OVERSIZED TEE", price: 1499, type: "tees", image: "shirt.png" },
-        { id: 204, name: "MESH TOP", price: 1999, type: "shirts", image: "shirt.png" },
-        { id: 205, name: "SPORTS BRA", price: 1499, type: "inners", image: "shirt.png" }
+        { id: 203, name: "OVERSIZED TEE", price: 1499, type: "tees", image: "Oversizedwoman.jpg" },
+        { id: 204, name: "WOOLEN MESH TOP", price: 1999, type: "shirts", image: "Meshtop.jpg" },
+        //{ id: 205, name: "SPORTS BRA", price: 1499, type: "inners", image: "shirt.png" }
     ]
 };
 
