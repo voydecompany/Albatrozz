@@ -49,11 +49,11 @@ body {
     z-index: 9998;
     transition: transform 0.15s ease-out, width 0.2s, height 0.2s;
     transform: translate(-50%, -50%);
-}*/
+}
 
 body:hover .cursor-outline {
     opacity: 1;
-}
+}*/
 
 /* Navbar - Default Clear (Hero State) */
 .navbar {
